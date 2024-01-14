@@ -1,5 +1,5 @@
-#macro INVENTORY_SLOTS 30
-rowLength = 10;
+#macro INVENTORY_SLOTS 60
+rowLength = 5;
 inventory = array_create(INVENTORY_SLOTS, -1);
 randomize();
 //inventory[0] = 0;

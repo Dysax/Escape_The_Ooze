@@ -1,9 +1,11 @@
 // If the game is NOT over...
 if (!instance_exists(obj_game_over))
 {
+	
 	// If the hero has run out of hitpoints...
 	if (obj_hero.hitpoints <= 0)
 	{
+		
 		// Destroy the player.
 		with (obj_hero) instance_destroy();
 	
@@ -25,6 +27,8 @@ if (!instance_exists(obj_game_over))
 	else
 	{
 		spawn_enemy();
+		//spawn_object(obj_collectable);
+		
 	}
 }
 
@@ -32,6 +36,7 @@ if (!instance_exists(obj_game_over))
 // We do this by checking is an end game screen is present.
 if (!instance_exists(obj_upgrade) && !instance_exists(obj_template_complete))
 {
+	
 	// If we have reached the experience goal...
 	if (global.xp >= global.xp_goal)
 	{

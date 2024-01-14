@@ -61,31 +61,37 @@ function player_movement()
 		}
 		
 		// If the W key is down...
-		if (keyboard_check(ord("W")))
+		if (keyboard_check(ord("W")) && place_free(x, y - collisionSpeed))
 		{
 			// Add -10 to vertical speed.
-			vspeed += -10;
+			y -= walkSpeed;
+			image_speed = walkSpeed / 3
+			sprite_index = spr_hero_run;
 		}
 	
 		// If the S key is down...
-		if (keyboard_check(ord("S")))
+		if (keyboard_check(ord("S")) && place_free(x, y  + collisionSpeed))
 		{
 			// Add 10 to vertical speed.
-			vspeed += 10;
+			y += walkSpeed;
+			image_speed = walkSpeed /3;
+			sprite_index = spr_hero_run;
 		}
 	
 		// If the A key is down...
-		if (keyboard_check(ord("A")))
+		if (keyboard_check(ord("A")) && place_free(x - collisionSpeed, y))
 		{
-			// Add -10 to horizontal speed.
-			hspeed += -10;
+			x -= walkSpeed; 
+			image_speed = walkSpeed / 3;
+			sprite_index = spr_hero_run;
 		}
 	
 		// If the D key is down...
-		if (keyboard_check(ord("D")))
+		if (keyboard_check(ord("D")) && place_free(x + collisionSpeed, y))
 		{
-			// Add 10 to horizontal speed.
-			hspeed += 10;
+			x += walkSpeed;
+			image_speed = walkSpeed / 3;
+			sprite_index = spr_hero_run;
 		}
 	}
 

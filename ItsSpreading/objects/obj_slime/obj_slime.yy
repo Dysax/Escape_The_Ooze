@@ -12,8 +12,8 @@
     "path": "folders/Objects/Game/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy",
-    "path": "objects/obj_enemy/obj_enemy.yy",
+    "name": "Object26",
+    "path": "objects/Object26/Object26.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

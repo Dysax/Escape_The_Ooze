@@ -1,8 +1,8 @@
-function InventorySearch(rootObject, itemType)
+function InventorySearch(name, quantity)
 {
 	for (var _i = 0; _i < INVENTORY_SLOTS; ++_i)
 	{
-		if (rootObject.inventory[_i] == itemType)
+		if (name.inventory[_i] == quantity)
 		{
 			return(_i);
 		}
@@ -10,21 +10,21 @@ function InventorySearch(rootObject, itemType)
 	return(-1);
 }
 
-function InventoryRemove(rootObject, itemType) {
-	var _slot = InventorySearch(rootObject, itemType);
+function InventoryRemove(name, quantity) {
+	var _slot = InventorySearch(name, quantity);
 	if (_slot != -1)
 	{
-		with (rootObject) inventory[_slot] = -1;
+		with (name) inventory[_slot] = -1;
 		return true;
 	}
 	else return false;
 }
 
-function InventoryAdd(rootObject, itemType) {
-	var _slot = InventorySearch(rootObject, -1);
+function InventoryAdd(name, quantity) {
+	var _slot = InventorySearch(name, -1);
 	if (_slot != -1)
 	{
-		with (rootObject) inventory[_slot] = itemType;
+		with (name) inventory[_slot] = quantity;
 		return true;
 	}
 	else return false;
