@@ -23,11 +23,39 @@ function Inventory() constructor
 		var index = item_find(_name);
 		
 		if(index >= 0) {
-			inventory_item[index].quantity += _quantity;
+			inventory_items[index].quantity += _quantity;
 		}
 		else {
 			item_set(_name, _quantity, _sprite);
 		}
+	}
+	
+	item_has = function(_name, _quantity) {
+		var index = item_find(_name);
+		
+		if(index >= 0) {
+			return inventory_items[index].quantity >= _quantity;
+		}
+		
+		return false;
+	}
+	
+	item_subtract = function (_name, _quantity) {
+		var index = item_find(_name);
+		
+		if(index >= 0) {
+			if(item_has(_name, _quantity)) {
+				inventory_items[index].quantity -= _quantity;
+				
+				if(inventory_items[index].quantity <= 0) {
+					item_remove(index);
+				}
+			}
+		}
+	}
+	
+	item_remove = function(_index) {
+		array_delete(inventory_items, _index, 1);
 	}
 	
 	toString = function() {
