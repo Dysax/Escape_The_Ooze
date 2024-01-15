@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_key",
+  "name": "obj_heart",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_key",
-    "path": "sprites/spr_key/spr_key.yy",
+    "name": "spr_heart_pickup",
+    "path": "sprites/spr_heart_pickup/spr_heart_pickup.yy",
   },
   "spriteMaskId": null,
   "visible": true,

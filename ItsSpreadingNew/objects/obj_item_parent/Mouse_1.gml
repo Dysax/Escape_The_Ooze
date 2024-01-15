@@ -1,5 +1,5 @@
 // add item to inv
-global.inventory.item_add("Key", 1, spr_key);
+global.inventory.item_add(name, quantity, sprite);
 // check inventory
 // This will convert inventory items to a string and print it
 var inventory_string = global.inventory.toString();
