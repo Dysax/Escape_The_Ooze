@@ -13,10 +13,7 @@
     "name": "Game",
     "path": "folders/Objects/Game.yy",
   },
-  "parentObjectId": {
-    "name": "obj_inventory",
-    "path": "objects/obj_inventory/obj_inventory.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -32,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_transparent",
+    "path": "sprites/spr_transparent/spr_transparent.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

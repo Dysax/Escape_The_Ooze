@@ -7,3 +7,8 @@ show_debug_message("Current Inventory: " + inventory_string);
 
 // destroy coin instance object
 instance_destroy();
+
+var clickX = mouse_x;
+var clickY = mouse_y;
+
+show_debug_message("Click coordinates: X=" + string(clickX) + ", Y=" + string(clickY));
