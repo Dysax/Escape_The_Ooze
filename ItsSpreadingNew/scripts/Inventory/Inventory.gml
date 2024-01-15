@@ -54,6 +54,10 @@ function Inventory() constructor
 		}
 	}
 	
+	item_get = function() {
+		return inventory_items;
+	}
+	
 	item_remove = function(_index) {
 		array_delete(inventory_items, _index, 1);
 	}
