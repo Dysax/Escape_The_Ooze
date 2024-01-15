@@ -1,22 +1,9 @@
-randomize();
+// Initialize global inventory
+global.inventory = new Inventory();
+//global.inventory.item_add("Key", 1, spr_key);
 
-inventory = new Inventory();
-
-inventory_columns = 7;
-inventory_rows = 4;
-
-inventory.item_add("Key", 3, spr_key);
-
-inventory.item_add("Key", 2, spr_key);
-inventory.item_add("Coin", 10, spr_coin);
-
-show_debug_message(inventory)
-
-inventory.item_subtract("Key", 2);
-inventory.item_subtract("Coin", 10);
-
-show_debug_message(inventory)
-
-draw_sprite(spr_inventory, -1, x, y);
-
-
+var slot_counter = 0;
+with (obj_inv_slot) {
+    slotID = slot_counter;
+    slot_counter += 1;
+}

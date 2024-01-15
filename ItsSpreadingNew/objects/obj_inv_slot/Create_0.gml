@@ -1,5 +1,1 @@
-//var inventory = item_get();
-
-
-
-
+inventory = global.inventory;
