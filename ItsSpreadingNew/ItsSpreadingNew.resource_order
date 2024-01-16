@@ -12,6 +12,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_barrel_big","order":3,"path":"objects/obj_barrel_big/obj_barrel_big.yy",},
     {"name":"spr_sword_attack","order":5,"path":"sprites/spr_sword_attack/spr_sword_attack.yy",},
+    {"name":"obj_mouse","order":1,"path":"objects/obj_mouse/obj_mouse.yy",},
     {"name":"path_enemy_2","order":1,"path":"paths/path_enemy_2/path_enemy_2.yy",},
     {"name":"snd_gate_iron_open","order":11,"path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},
     {"name":"snd_chest_open","order":10,"path":"sounds/snd_chest_open/snd_chest_open.yy",},
@@ -38,6 +39,7 @@
     {"name":"snd_bat_defeat","order":8,"path":"sounds/snd_bat_defeat/snd_bat_defeat.yy",},
     {"name":"obj_item_parent","order":2,"path":"objects/obj_item_parent/obj_item_parent.yy",},
     {"name":"path_enemy_3","order":2,"path":"paths/path_enemy_3/path_enemy_3.yy",},
+    {"name":"drawCircleOnHover","order":2,"path":"scripts/drawCircleOnHover/drawCircleOnHover.yy",},
     {"name":"spr_gate_iron_1","order":5,"path":"sprites/spr_gate_iron_1/spr_gate_iron_1.yy",},
     {"name":"spr_transparent","order":22,"path":"sprites/spr_transparent/spr_transparent.yy",},
     {"name":"spr_player_walk_down","order":4,"path":"sprites/spr_player_walk_down/spr_player_walk_down.yy",},
@@ -64,6 +66,7 @@
     {"name":"snd_torch","order":7,"path":"sounds/snd_torch/snd_torch.yy",},
     {"name":"ts_animations","order":2,"path":"tilesets/ts_animations/ts_animations.yy",},
     {"name":"snd_powerup","order":1,"path":"sounds/snd_powerup/snd_powerup.yy",},
+    {"name":"mouseGetId","order":1,"path":"scripts/mouseGetId/mouseGetId.yy",},
     {"name":"spr_key","order":1,"path":"sprites/spr_key/spr_key.yy",},
     {"name":"spr_bones_pile_1","order":1,"path":"sprites/spr_bones_pile_1/spr_bones_pile_1.yy",},
     {"name":"spr_gate_wood_2","order":8,"path":"sprites/spr_gate_wood_2/spr_gate_wood_2.yy",},
