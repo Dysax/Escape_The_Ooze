@@ -14,8 +14,3 @@ global.inventory = new Inventory();
 global.selected_slot = -1;
 show_debug_message("Selected slot: " + string(global.selected_slot));
 
-global.slot_counter = 0;
-with (obj_inv_slot) {
-    slotID = global.slot_counter;
-    global.slot_counter += 1;
-}
