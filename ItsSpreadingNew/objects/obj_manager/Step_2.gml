@@ -9,7 +9,5 @@
 
 with(all) { // for all object instances
     // Check if the instance is NOT the inventory or inventory slots
-    if (object_index != obj_inv_slot) {
-        depth = -bbox_bottom; //sort everything else
-    }
+   depth = -bbox_bottom; //sort everything els
 }

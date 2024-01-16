@@ -14,3 +14,20 @@ global.inventory = new Inventory();
 global.selected_slot = -1;
 show_debug_message("Selected slot: " + string(global.selected_slot));
 
+
+for (var i = 0; i < instance_number(obj_inv_slot); ++i;) {
+	variable_instance_set(instance_find(obj_inv_slot,i), "slotNumber", i);
+	variable_instance_set(instance_find(obj_inv_slot,i), "isFull", false);
+}
+
+for (var i = 0; i < instance_number(obj_coin); ++i;) {
+	variable_instance_set(instance_find(obj_coin,i), "itemNumber", i);
+}
+
+for (var i = 0; i < instance_number(obj_heart); ++i;) {
+	variable_instance_set(instance_find(obj_heart,i), "itemNumber", i);
+}
+
+for (var i = 0; i < instance_number(obj_key); ++i;) {
+	variable_instance_set(instance_find(obj_key,i), "itemNumber", i);
+}

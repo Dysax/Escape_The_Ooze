@@ -6,7 +6,7 @@ function mouseGetId(){
 		
 		if(getID) {
 			if(g.leftClick){
-				if(!g.coolDown && g.heldId == -1 && !variable_instance_exists(id, "dontSelectMe")) {
+				if(!g.coolDown && g.heldId == -1 && variable_instance_exists(id, "SelectMe")) {
 					g.heldId = id;
 					g.coolDown =true;
 					show_debug_message("click detected " + string(g.heldId))
