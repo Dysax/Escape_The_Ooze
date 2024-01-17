@@ -3,6 +3,3 @@
 name = "Coin"
 quantity = 1;
 sprite = spr_coin;
-
-
-
