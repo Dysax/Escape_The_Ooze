@@ -30,6 +30,19 @@ function mouseGetId(){
 	
 		g.clicks += g.leftClick;
 	}
+	// an attempt to pick up items from the inventory 
+	// When an item is picked up
+	if (variable_instance_exists(g.heldId, "inSlot") && variable_instance_get(g.heldId, "inSlot")) {
+		var slotNum = variable_instance_get(g.heldId, "slotNumber");
+		if (slotNum != noone) {
+	        var slotInstance = instance_find(obj_inv_slot, slotNum);
+	        if (instance_exists(slotInstance)) {
+	            variable_instance_set(slotInstance, "isFull", false);
+	        }
+	    }
+	    variable_instance_set(g.heldId, "inSlot", false);
+	    variable_instance_set(g.heldId, "slotNumber", noone); // Reset slot number reference
+	}
 	
 	if(g.coolDown && g.clicks >= 2) {
 		g.heldId = -1
@@ -38,6 +51,7 @@ function mouseGetId(){
 		}
 		g.clicks = 0;
 	}
+	
 //function end
 }
 
