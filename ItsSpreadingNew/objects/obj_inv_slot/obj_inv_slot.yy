@@ -33,9 +33,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_transparent",
-    "path": "sprites/spr_transparent/spr_transparent.yy",
+    "name": "spr_inv_slot",
+    "path": "sprites/spr_inv_slot/spr_inv_slot.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
