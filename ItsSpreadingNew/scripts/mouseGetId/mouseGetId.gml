@@ -35,13 +35,13 @@ function mouseGetId(){
 	if (variable_instance_exists(g.heldId, "inSlot") && variable_instance_get(g.heldId, "inSlot")) {
 		var slotNum = variable_instance_get(g.heldId, "slotNumber");
 		if (slotNum != noone) {
-	        var slotInstance = instance_find(obj_inv_slot, slotNum);
-	        if (instance_exists(slotInstance)) {
-	            variable_instance_set(slotInstance, "isFull", false);
+	        if (instance_exists(instance_find(obj_inv_slot, slotNum))) {
+	            variable_instance_set(instance_find(obj_inv_slot, slotNum), "isFull", false);
 	        }
 	    }
+		//reset variables
 	    variable_instance_set(g.heldId, "inSlot", false);
-	    variable_instance_set(g.heldId, "slotNumber", noone); // Reset slot number reference
+	    variable_instance_set(g.heldId, "slotNumber", noone); 
 	}
 	
 	if(g.coolDown && g.clicks >= 2) {
