@@ -1,3 +1,5 @@
+#macro g global
+
 // Stop the menu music
 audio_stop_sound(snd_music_menu);
 
