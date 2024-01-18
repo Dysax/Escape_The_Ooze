@@ -44,7 +44,6 @@
     {"name":"snd_bat_defeat","order":8,"path":"sounds/snd_bat_defeat/snd_bat_defeat.yy",},
     {"name":"obj_item_parent","order":2,"path":"objects/obj_item_parent/obj_item_parent.yy",},
     {"name":"path_enemy_3","order":2,"path":"paths/path_enemy_3/path_enemy_3.yy",},
-    {"name":"drawCircleOnHover","order":2,"path":"scripts/drawCircleOnHover/drawCircleOnHover.yy",},
     {"name":"spr_gate_iron_1","order":5,"path":"sprites/spr_gate_iron_1/spr_gate_iron_1.yy",},
     {"name":"spr_player_walk_down","order":4,"path":"sprites/spr_player_walk_down/spr_player_walk_down.yy",},
     {"name":"spr_pillar_whole","order":5,"path":"sprites/spr_pillar_whole/spr_pillar_whole.yy",},
