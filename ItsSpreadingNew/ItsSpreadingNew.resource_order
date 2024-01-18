@@ -16,7 +16,6 @@
     {"name":"spr_table","order":6,"path":"sprites/spr_table/spr_table.yy",},
     {"name":"obj_mouse_left","order":1,"path":"objects/obj_mouse_left/obj_mouse_left.yy",},
     {"name":"path_enemy_2","order":1,"path":"paths/path_enemy_2/path_enemy_2.yy",},
-    {"name":"obj_mouse_right","order":2,"path":"objects/obj_mouse_right/obj_mouse_right.yy",},
     {"name":"snd_gate_iron_open","order":11,"path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},
     {"name":"snd_chest_open","order":10,"path":"sounds/snd_chest_open/snd_chest_open.yy",},
     {"name":"spr_laptop","order":7,"path":"sprites/spr_laptop/spr_laptop.yy",},

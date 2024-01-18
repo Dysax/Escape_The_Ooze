@@ -65,7 +65,6 @@
     {"id":{"name":"spr_table","path":"sprites/spr_table/spr_table.yy",},},
     {"id":{"name":"obj_mouse_left","path":"objects/obj_mouse_left/obj_mouse_left.yy",},},
     {"id":{"name":"path_enemy_2","path":"paths/path_enemy_2/path_enemy_2.yy",},},
-    {"id":{"name":"obj_mouse_right","path":"objects/obj_mouse_right/obj_mouse_right.yy",},},
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},},
     {"id":{"name":"spr_baddie_idle","path":"sprites/spr_baddie_idle/spr_baddie_idle.yy",},},
     {"id":{"name":"snd_gate_iron_open","path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},},
