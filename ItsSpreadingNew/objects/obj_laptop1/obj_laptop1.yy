@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_table1",
+  "name": "obj_laptop1",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_table1",
-    "path": "sprites/spr_table1/spr_table1.yy",
+    "name": "spr_laptop1",
+    "path": "sprites/spr_laptop1/spr_laptop1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
