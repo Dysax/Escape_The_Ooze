@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_table1",
-    "path": "sprites/spr_table1/spr_table1.yy",
+    "name": "spr_table2",
+    "path": "sprites/spr_table2/spr_table2.yy",
   },
   "spriteMaskId": null,
   "visible": true,

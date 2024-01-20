@@ -1,19 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_laptop1",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_ooze","path":"objects/obj_ooze/obj_ooze.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_table2",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Game/Items.yy",
+    "name": "Level",
+    "path": "folders/Objects/Level.yy",
   },
   "parentObjectId": {
-    "name": "obj_item_parent",
-    "path": "objects/obj_item_parent/obj_item_parent.yy",
+    "name": "obj_parent_depth",
+    "path": "objects/obj_parent_depth/obj_parent_depth.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_laptop1",
-    "path": "sprites/spr_laptop1/spr_laptop1.yy",
+    "name": "spr_table1",
+    "path": "sprites/spr_table1/spr_table1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
