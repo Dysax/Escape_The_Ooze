@@ -16,6 +16,9 @@ g.inventory = new Inventory();
 g.selected_slot = -1;
 g.slotx = -1
 g.sloty = -1
+g.clickx = -1
+g.clicky = -1
+g.throwSpeed = 15
 g.heldItem = "none"
 
 for (var i = 0; i < instance_number(obj_inv_slot); ++i;) {

@@ -30,15 +30,14 @@ if(g.leftClick)
 			variable_instance_set(g.selected_slot, "storedItem", "none");
 			//instance_destroy(itemId);
 			variable_instance_set(g.selected_slot, "isFull", false);
-			//throw item here
-			var throw_speed = 15;
-			var throw_distance = 20;
-			itemId.x = player_x;
-			itemId.y = player_y;
 			
-			itemId.direction = dir;
-			itemId.speed = throw_speed;
+			
+			
 			variable_instance_set(itemId, "isThrown", true);
+			variable_instance_set(itemId, "isTeleported", false);
+			g.clickx = mouse_x
+			g.clicky = mouse_y
+			itemId.speed = g.throwSpeed
 						
 		}
 		
