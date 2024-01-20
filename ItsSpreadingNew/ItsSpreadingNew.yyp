@@ -79,6 +79,7 @@
     {"id":{"name":"ItemToInventory","path":"scripts/ItemToInventory/ItemToInventory.yy",},},
     {"id":{"name":"spr_baddie_walk_down","path":"sprites/spr_baddie_walk_down/spr_baddie_walk_down.yy",},},
     {"id":{"name":"spr_new_floor","path":"sprites/spr_new_floor/spr_new_floor.yy",},},
+    {"id":{"name":"obj_mouse_left","path":"objects/obj_mouse_left/obj_mouse_left.yy",},},
     {"id":{"name":"path_enemy_4","path":"paths/path_enemy_4/path_enemy_4.yy",},},
     {"id":{"name":"spr_tileset_floor","path":"sprites/spr_tileset_floor/spr_tileset_floor.yy",},},
     {"id":{"name":"snd_shield_loop","path":"sounds/snd_shield_loop/snd_shield_loop.yy",},},
