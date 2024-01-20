@@ -31,7 +31,7 @@ if(g.leftClick)
 			//instance_destroy(itemId);
 			variable_instance_set(g.selected_slot, "isFull", false);
 			//throw item here
-			var throw_speed = 10;
+			var throw_speed = 15;
 			var throw_distance = 20;
 			itemId.x = player_x;
 			itemId.y = player_y;
