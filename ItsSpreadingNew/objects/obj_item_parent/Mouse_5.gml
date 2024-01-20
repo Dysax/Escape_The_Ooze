@@ -9,8 +9,10 @@ if ((itemPickupElipse)) {
 		if (!variable_instance_get(instance_find(obj_inv_slot, i), "isFull") && !g.slotPicked) { //if slot is not full
 			g.slotPicked = true;
 			//included calculation to find center of the slot
-			g.slotx = variable_instance_get(instance_find(obj_inv_slot, i), "x_pos") + (slotWidth / 2);
-			g.sloty = variable_instance_get(instance_find(obj_inv_slot, i), "y_pos") + (slotHeight / 2);
+			var slotx = variable_instance_get(instance_find(obj_inv_slot, i), "x_pos");
+			var sloty = variable_instance_get(instance_find(obj_inv_slot, i), "y_pos");
+			variable_instance_set(id, "x_pos", slotx);
+			variable_instance_set(id, "y_pos", sloty);
 
 			variable_instance_set(instance_find(obj_inv_slot, i), "isFull", true);
 		
@@ -26,8 +28,10 @@ if ((itemPickupElipse)) {
 			break;
 		}
 	}
+	var slotx = variable_instance_get(instance_find(obj_inv_slot, i), "x_pos");
+	var sloty = variable_instance_get(instance_find(obj_inv_slot, i), "y_pos");
 
-	direction = point_direction(x, y, global.slotx, global.sloty);
+	direction = point_direction(x, y, slotx, sloty);
 
 	speed = 50;
 }

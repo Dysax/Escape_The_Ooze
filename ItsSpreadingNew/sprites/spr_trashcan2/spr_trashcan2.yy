@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"48aac331-29f5-414e-8218-3e644d66e75d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Items",
     "path": "folders/Sprites/Items.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 27,
-    "yorigin": 31,
+    "yorigin": 40,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,

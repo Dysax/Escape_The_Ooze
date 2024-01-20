@@ -1,18 +1,14 @@
-
-
-//if(_dist <= speed)
-//{
-//speed = 0;
-//}
 if(variable_instance_get(id, "goingToInventory"))
 {
-	var _dist = point_distance(x, y, global.slotx, global.sloty);
+	var slotx = variable_instance_get(id, "x_pos");
+	var sloty = variable_instance_get(id, "y_pos");
+	var _dist = point_distance(x, y, slotx, sloty);
 	
 	if(_dist <= speed) {
 		//snaps objects to center when close
-	    x = global.slotx;
-	    y = global.sloty;
+		
 	    speed = 0;
+		variable_instance_set(id, "inInventory", true);
 		variable_instance_set(id, "goingToInventory", false);
 	}
 }
