@@ -2,8 +2,8 @@
 // area surrounding the baddie
 // Its size is 100 pixels around the baddie (using
 // the relative option)
-var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_player, true, 1);
-if((l563A63E1_0))
+var baddieElipse = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_player, true, 1);
+if((baddieElipse))
 {
 	// Then check if the baddie is
 	// not attacking right now
