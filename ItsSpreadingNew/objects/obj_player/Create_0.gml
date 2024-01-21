@@ -5,5 +5,8 @@
 // pixels-per-second.
 move_speed = 4;
 
+//initialize last weight for adjusting player speed
+g.last_weight = weight
+
 // Initialize coins value at 0
 coins = 0;

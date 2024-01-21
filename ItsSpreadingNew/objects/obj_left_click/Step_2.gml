@@ -23,7 +23,16 @@ if(g.leftClick)
 			variable_instance_set(g.selected_slot, "storedItem", "none");
 			variable_instance_set(g.selected_slot, "isFull", false);
 			
+			//reduce player weight by item weight
+			var _item_weight = variable_instance_get(itemId, "weight")
+			obj_player.weight = obj_player.weight -_item_weight
+			
+			
+			//variable in the instance used to control if an item is being thrown
 			variable_instance_set(itemId, "isThrown", true);
+			
+			//I hate this but I had to do it in order to prevent the item from 
+			//continuously sticking to the player
 			variable_instance_set(itemId, "isTeleported", false);
 			g.clickx = mouse_x
 			g.clicky = mouse_y

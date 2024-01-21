@@ -18,6 +18,7 @@
     {"name":"obj_baddie2","order":3,"path":"objects/obj_baddie2/obj_baddie2.yy",},
     {"name":"path_enemy_2","order":1,"path":"paths/path_enemy_2/path_enemy_2.yy",},
     {"name":"snd_gate_iron_open","order":11,"path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},
+    {"name":"scr_adj_player_speed","order":5,"path":"scripts/scr_adj_player_speed/scr_adj_player_speed.yy",},
     {"name":"snd_chest_open","order":10,"path":"sounds/snd_chest_open/snd_chest_open.yy",},
     {"name":"snd_baddie_defeated","order":5,"path":"sounds/snd_baddie_defeated/snd_baddie_defeated.yy",},
     {"name":"obj_sound_loop","order":2,"path":"objects/obj_sound_loop/obj_sound_loop.yy",},

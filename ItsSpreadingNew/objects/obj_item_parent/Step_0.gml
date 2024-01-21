@@ -18,6 +18,7 @@ if(variable_instance_get(id, "isThrown"))
 	var dir = point_direction(obj_player.x, obj_player.y, g.clickx, g.clicky);	
 	direction = dir;
 	speed -= weight/10;
+
 	if (speed <= 1) {
 		speed = 0;
 		variable_instance_set(id, "isThrown", false);

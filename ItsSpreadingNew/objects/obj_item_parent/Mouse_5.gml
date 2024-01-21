@@ -20,9 +20,11 @@ if ((itemPickupElipse)) {
 			variable_instance_set(id, "slotNumber", i);
 			variable_instance_set(id, "goingToInventory", true);
 			variable_instance_set(instance_find(obj_inv_slot, i), "storedItem", id);
-			//break for loop as an empty slot was found
 			
-			//
+			//add item weight to player weight
+			obj_player.weight += id.weight
+
+			//break for loop as an empty slot was found
 			break;
 		}
 	}

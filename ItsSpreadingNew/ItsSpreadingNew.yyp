@@ -69,6 +69,7 @@
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},},
     {"id":{"name":"spr_baddie_idle","path":"sprites/spr_baddie_idle/spr_baddie_idle.yy",},},
     {"id":{"name":"snd_gate_iron_open","path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},},
+    {"id":{"name":"scr_adj_player_speed","path":"scripts/scr_adj_player_speed/scr_adj_player_speed.yy",},},
     {"id":{"name":"snd_music_game","path":"sounds/snd_music_game/snd_music_game.yy",},},
     {"id":{"name":"snd_chest_open","path":"sounds/snd_chest_open/snd_chest_open.yy",},},
     {"id":{"name":"snd_baddie_defeated","path":"sounds/snd_baddie_defeated/snd_baddie_defeated.yy",},},
