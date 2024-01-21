@@ -1,5 +1,5 @@
-/// @description end game
-game_end()
+/// @description return to main menu
+room_goto(0)
 
 
 
