@@ -97,3 +97,35 @@ if((baddieElipsePursue))
 	sprite_index =spr_baddie_idle
 	
 }
+
+//fix baddies stuck in tables by moving them to an open space
+isCollidingTable = place_meeting(x,y, obj_table1) | place_meeting(x,y, obj_table2);
+isCollidingBed = place_meeting(x,y, obj_bed)
+isColliding = isCollidingTable | isCollidingBed
+
+
+if(isColliding) {
+	teleDist = 70 + freeDist
+	if (place_free(x+teleDist, y+teleDist)) {
+		x+=teleDist
+		y+=teleDist
+		freeDist = 0
+	}
+	if (place_free(x+teleDist, y-teleDist)) {
+		x+=teleDist
+		y-=teleDist
+		freeDist = 0
+	}
+	if (place_free(x-teleDist, y+teleDist)) {
+		x-=teleDist
+		y+=teleDist
+		freeDist = 0
+	}
+	if (place_free(x-teleDist, y-teleDist)) {
+		x-=teleDist
+		y-=teleDist
+		freeDist = 0
+	} else {
+		freeDist += 10
+	}
+}

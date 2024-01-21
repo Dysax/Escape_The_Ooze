@@ -1,6 +1,2 @@
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 2BBBD7BE
-/// @DnDArgument : "spriteind" "sprite_index"
-sprite_index = sprite_index;
+//set image frame to 0 when the mouse leaves the button
 image_index = 0;

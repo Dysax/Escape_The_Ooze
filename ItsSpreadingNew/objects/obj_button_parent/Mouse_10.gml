@@ -1,7 +1,2 @@
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 2228B3B8
-/// @DnDArgument : "imageind" "1"
-/// @DnDArgument : "spriteind" "sprite_index"
-sprite_index = sprite_index;
+//set image frame to 1 when mouse intersects the button
 image_index = 1;

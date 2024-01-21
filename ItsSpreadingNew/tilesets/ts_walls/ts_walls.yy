@@ -65,10 +65,7 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "spriteId": {
-    "name": "spr_tileset_walls",
-    "path": "sprites/spr_tileset_walls/spr_tileset_walls.yy",
-  },
+  "spriteId": null,
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",

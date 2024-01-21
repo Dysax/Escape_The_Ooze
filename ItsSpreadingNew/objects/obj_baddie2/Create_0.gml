@@ -6,3 +6,4 @@ move_speed = 2;
 // is attacking the player, otherwise
 // it will be false.
 attacking = false;
+freeDist = 0
