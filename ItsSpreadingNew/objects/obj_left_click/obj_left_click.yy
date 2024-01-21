@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Game",
-    "path": "folders/Objects/Game.yy",
+    "name": "Master objs",
+    "path": "folders/Objects/Game/Master objs.yy",
   },
   "parentObjectId": null,
   "persistent": false,
