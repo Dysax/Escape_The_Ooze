@@ -3,7 +3,7 @@
   "resourceVersion": "1.1",
   "name": "Template_Readme",
   "parent": {
-    "name": "ItsSpreadingNew",
-    "path": "ItsSpreadingNew.yyp",
+    "name": "ItsSpreadingV2",
+    "path": "ItsSpreadingV2.yyp",
   },
 }
