@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "ItsSpreadingNew",
-    "path": "ItsSpreadingNew.yyp",
+    "name": "ItsSpreadingV2",
+    "path": "ItsSpreadingV2.yyp",
   },
   "preMultiplyAlpha": false,
   "sequence": {
