@@ -1,7 +1,0 @@
-/// @description 
-animationTimer = 60;
-
-
-
-
-
