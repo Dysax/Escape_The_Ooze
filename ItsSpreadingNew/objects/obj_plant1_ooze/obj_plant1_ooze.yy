@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_item_ooze_placeholder",
-    "path": "sprites/spr_item_ooze_placeholder/spr_item_ooze_placeholder.yy",
+    "name": "spr_plant1_ooze",
+    "path": "sprites/spr_plant1_ooze/spr_plant1_ooze.yy",
   },
   "spriteMaskId": {
     "name": "spr_item_ooze_placeholder",
