@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_trashcan2",
-    "path": "sprites/spr_trashcan2/spr_trashcan2.yy",
+    "name": "spr_trashcan2_ooze",
+    "path": "sprites/spr_trashcan2_ooze/spr_trashcan2_ooze.yy",
   },
   "spriteMaskId": null,
   "visible": true,
