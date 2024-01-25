@@ -25,7 +25,7 @@ if(message == "baddie_step")
 			// The ID of the played sound is stored
 			// in the "footstep" variable (which is marked
 			// as temporary).
-			var footstep = audio_play_sound(snd_baddie_footstep, 0, 0, 1.0, undefined, 1.0);
+			var footstep = audio_play_sound(snd_slime_footstep, 0, 0, 1.0, undefined, 1.0);
 		
 			// The volume of the footstep sound is changed
 			// based on this distance to the player. This way
