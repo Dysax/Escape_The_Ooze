@@ -2663,6 +2663,9 @@
     {"name":"inst_3D183065","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_3E710403","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_3988F3B1","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_5E64C4D1","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_69961CD4","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_33A37F20","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -2743,6 +2746,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D183065","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_chair1","path":"objects/obj_chair1/obj_chair1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1752.0,"y":657.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E710403","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_laptop1","path":"objects/obj_laptop1/obj_laptop1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1824.0,"y":666.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3988F3B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_table1","path":"objects/obj_table1/obj_table1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1792.0,"y":656.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E64C4D1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_table2","path":"objects/obj_table2/obj_table2.yy",},"properties":[],"rotation":0.0,"scaleX":1.375,"scaleY":1.25,"x":1600.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69961CD4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_cleaner1","path":"objects/obj_cleaner1/obj_cleaner1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33A37F20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_trashcan2","path":"objects/obj_trashcan2/obj_trashcan2.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trashcan2","path":"objects/obj_trashcan2/obj_trashcan2.yy",},"propertyId":{"name":"weight","path":"objects/obj_trashcan2/obj_trashcan2.yy",},"value":"2",},
+          ],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1824.0,"y":736.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Visuals_Below_Instances","depth":-11700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Visual_Assets","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
