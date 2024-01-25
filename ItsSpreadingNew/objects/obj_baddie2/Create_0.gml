@@ -7,3 +7,6 @@ move_speed = 2;
 // it will be false.
 attacking = false;
 freeDist = 0
+
+animation_timer = 60
+isSpawned = false

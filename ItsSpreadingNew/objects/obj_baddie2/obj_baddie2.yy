@@ -42,8 +42,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_baddie_idle",
-    "path": "sprites/spr_baddie_idle/spr_baddie_idle.yy",
+    "name": "spr_slime_spawn",
+    "path": "sprites/spr_slime_spawn/spr_slime_spawn.yy",
   },
   "spriteMaskId": null,
   "visible": true,
