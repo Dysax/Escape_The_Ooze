@@ -170,13 +170,11 @@
     {"id":{"name":"spr_next_level","path":"sprites/spr_next_level/spr_next_level.yy",},},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},},
     {"id":{"name":"spr_bed_ooze","path":"sprites/spr_bed_ooze/spr_bed_ooze.yy",},},
-    {"id":{"name":"snd_player_defeated","path":"sounds/snd_player_defeated/snd_player_defeated.yy",},},
     {"id":{"name":"spr_table1_ooze","path":"sprites/spr_table1_ooze/spr_table1_ooze.yy",},},
     {"id":{"name":"spr_help_close","path":"sprites/spr_help_close/spr_help_close.yy",},},
     {"id":{"name":"spr_chair1","path":"sprites/spr_chair1/spr_chair1.yy",},},
     {"id":{"name":"obj_table2_ooze","path":"objects/obj_table2_ooze/obj_table2_ooze.yy",},},
     {"id":{"name":"obj_table1","path":"objects/obj_table1/obj_table1.yy",},},
-    {"id":{"name":"snd_sword_swing","path":"sounds/snd_sword_swing/snd_sword_swing.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

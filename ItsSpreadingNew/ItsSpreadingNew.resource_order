@@ -99,12 +99,10 @@
     {"name":"obj_button_parent","order":3,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"spr_next_level","order":2,"path":"sprites/spr_next_level/spr_next_level.yy",},
     {"name":"spr_bed_ooze","order":2,"path":"sprites/spr_bed_ooze/spr_bed_ooze.yy",},
-    {"name":"snd_player_defeated","order":4,"path":"sounds/snd_player_defeated/snd_player_defeated.yy",},
     {"name":"spr_table1_ooze","order":4,"path":"sprites/spr_table1_ooze/spr_table1_ooze.yy",},
     {"name":"spr_help_close","order":8,"path":"sprites/spr_help_close/spr_help_close.yy",},
     {"name":"spr_chair1","order":5,"path":"sprites/spr_chair1/spr_chair1.yy",},
     {"name":"obj_table2_ooze","order":1,"path":"objects/obj_table2_ooze/obj_table2_ooze.yy",},
     {"name":"obj_table1","order":3,"path":"objects/obj_table1/obj_table1.yy",},
-    {"name":"snd_sword_swing","order":3,"path":"sounds/snd_sword_swing/snd_sword_swing.yy",},
   ],
 }
