@@ -44,7 +44,7 @@ if((baddieElipsePursue))
 			{
 				// Switch to the 'side attack'
 				// sprite
-				sprite_index = spr_baddie_attack_side;
+				sprite_index = spr_slime_attack_side;
 				image_index = 0;
 		
 				// Flip the sprite so it faces left
@@ -63,7 +63,7 @@ if((baddieElipsePursue))
 				{
 					// Switch to the 'side attack'
 					// sprite
-					sprite_index = spr_baddie_attack_side;
+					sprite_index = spr_slime_attack_side;
 					image_index = 0;
 			
 					// But keep its original scale
@@ -82,7 +82,7 @@ if((baddieElipsePursue))
 					{
 						// Switch to the 'up attack'
 						// sprite
-						sprite_index = spr_baddie_attack_up;
+						sprite_index = spr_slime_attack_up;
 						image_index = 0;
 					}
 			
@@ -92,7 +92,7 @@ if((baddieElipsePursue))
 						// Switch to the 'down attack'
 						// sprite as that's the only
 						// direction left
-						sprite_index = spr_baddie_attack_down;
+						sprite_index = spr_slime_attack_down;
 						image_index = 0;
 					}
 				}

@@ -27,7 +27,7 @@ if(speed_x >= 1)
 
 	// and change the sprite to the side walking
 	// sprite
-	sprite_index = spr_baddie_walk_side;
+	sprite_index = spr_slime_walk_side;
 	image_index += 0;
 }
 
@@ -39,7 +39,7 @@ if(speed_x <= -1)
 	image_yscale = 1;
 
 	// Set side walking sprite
-	sprite_index = spr_baddie_walk_side;
+	sprite_index = spr_slime_walk_side;
 	image_index += 0;
 }
 
@@ -47,7 +47,7 @@ if(speed_x <= -1)
 if(speed_y >= 1)
 {
 	// Set that sprite
-	sprite_index = spr_baddie_walk_down;
+	sprite_index = spr_slime_walk_down;
 	image_index += 0;
 }
 
@@ -55,6 +55,6 @@ if(speed_y >= 1)
 if(speed_y <= -1)
 {
 	// Set that sprite
-	sprite_index = spr_baddie_walk_up;
+	sprite_index = spr_slime_walk_up;
 	image_index += 0;
 }

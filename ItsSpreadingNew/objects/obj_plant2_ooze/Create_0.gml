@@ -1,5 +1,5 @@
 /// @description 
-animationTimer = 60;
+animationTimer = 30;
 g.oozeIsSlowed = true;
 
 //How long the ooze is slowed for
