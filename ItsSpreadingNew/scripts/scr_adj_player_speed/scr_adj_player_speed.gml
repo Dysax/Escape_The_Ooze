@@ -2,20 +2,20 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_adj_player_speed(){
 	with(obj_player){
-		if (weight > g.last_weight) {
-			show_debug_message("Player Weight Increased: " + string(weight))
+		//check if player weight has changed
+		if (weight != g.last_weight) {
+			//reset movement speed to default
+			move_speed = 4
+			//recalculate speed reduction by weight value
 			var _speed_reduce = round(weight/10);
+			//adjust movement speed
 			move_speed = move_speed - _speed_reduce
+			//set speed to 0 if the number is less than zero
 			if(move_speed <= 0){
 				move_speed = 0
 			}
-		} else if (weight < g.last_weight) {
-			show_debug_message("Player Weight Decreased: " + string(weight))
-			var _speed_increase = round(weight/10);
-			move_speed = move_speed + _speed_increase
-		} else if (weight == 0){
-			move_speed = 4
+			//set global last weight variable to new current weight
+			g.last_weight = weight
 		}
-		g.last_weight = weight
 	}
 }
