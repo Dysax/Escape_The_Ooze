@@ -1,0 +1,5 @@
+/// @description
+animationTimer = 30
+
+
+
