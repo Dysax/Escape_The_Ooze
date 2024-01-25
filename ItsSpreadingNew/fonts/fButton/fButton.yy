@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fnt_button",
+  "name": "fButton",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 0,

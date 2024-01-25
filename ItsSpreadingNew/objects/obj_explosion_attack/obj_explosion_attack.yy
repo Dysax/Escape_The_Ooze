@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_torch_glow",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
-  ],
+  "name": "obj_explosion_attack",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Lighting_Effects",
-    "path": "folders/Objects/Lighting_Effects.yy",
+    "name": "attack_items",
+    "path": "folders/Objects/Game/Items/attack_items.yy",
   },
   "parentObjectId": null,
   "persistent": false,

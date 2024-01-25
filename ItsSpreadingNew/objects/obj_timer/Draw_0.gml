@@ -16,4 +16,4 @@ if (t_sec < 10) {
 t += "."
 t += string(t_mil)
 
-draw_text(2500,300,t)
+draw_text(2600,300,t)

@@ -1,5 +1,5 @@
 /// @description 
-animationTimer = 60;
+animationTimer = 30;
 
 
 
