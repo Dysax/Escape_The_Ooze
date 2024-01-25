@@ -20,6 +20,7 @@ g.clickx = -1
 g.clicky = -1
 g.throwSpeed = 15
 g.heldItem = "none"
+g.oozeIsSlowed = false
 
 for (var i = 0; i < instance_number(obj_inv_slot); ++i;) {
 	variable_instance_set(instance_find(obj_inv_slot,i), "slotNumber", i);

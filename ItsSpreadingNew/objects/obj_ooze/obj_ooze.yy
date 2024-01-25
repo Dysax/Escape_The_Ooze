@@ -32,6 +32,7 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"var_ooze_growth_time","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"150","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"default_growth_time","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"150","varType":1,},
   ],
   "solid": false,
   "spriteId": {
@@ -39,5 +40,5 @@
     "path": "sprites/spr_ooze/spr_ooze.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

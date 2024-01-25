@@ -1,5 +1,6 @@
 /// @description 
 animationTimer = 60;
+g.oozeIsSlowed = true;
 
 //How long the ooze is slowed for
 //60 fps -> 1 min -> 3600

@@ -5,7 +5,7 @@ if(animationTimer <= 0){
 	//Create timer if it doesn't exist
 	if !(instance_exists(obj_timer)) {
 		//double ooze growth time
-		obj_ooze.ooze_growth_time = obj_ooze.ooze_growth_time*2
+		obj_ooze.var_ooze_growth_time = obj_ooze.var_ooze_growth_time*2
 		
 		//set timer created to true
 		timerCreated=true
@@ -21,10 +21,8 @@ if(animationTimer <= 0){
 	//slowdown limited by oozeSlowTimer value
 	oozeSlowTimer--;
 	if(oozeSlowTimer <= 0){
-		
 		//after oozeSlowTimer reset ooze growth time
-		obj_ooze.ooze_growth_time = obj_ooze.ooze_growth_time/2
-		
+		obj_ooze.var_ooze_growth_time = obj_ooze.default_growth_time
 		instance_destroy()
 	}
 }
