@@ -106,7 +106,7 @@ if((baddieElipsePursue))
 }
 
 //fix baddies stuck in tables by moving them to an open space
-isCollidingTable = place_meeting(x,y, obj_table1) | place_meeting(x,y, obj_table2);
+isCollidingTable = place_meeting(x,y, obj_table2) | place_meeting(x,y, obj_table1);
 isCollidingBed = place_meeting(x,y, obj_bed)
 isColliding = isCollidingTable | isCollidingBed
 
