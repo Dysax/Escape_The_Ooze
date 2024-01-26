@@ -1,3 +1,3 @@
 event_inherited();
 
-text = "Play";
+text = "Survive...";
