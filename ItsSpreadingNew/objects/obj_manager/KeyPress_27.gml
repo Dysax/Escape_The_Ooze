@@ -1,5 +1,5 @@
 /// @description return to main menu
-room_goto(0)
+room_goto_next()
 
 
 

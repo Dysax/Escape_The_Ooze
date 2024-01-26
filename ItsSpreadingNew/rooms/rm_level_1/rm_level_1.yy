@@ -2666,6 +2666,7 @@
     {"name":"inst_5E64C4D1","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_69961CD4","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_33A37F20","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_18C5ACCA","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -2751,6 +2752,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33A37F20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_trashcan2","path":"objects/obj_trashcan2/obj_trashcan2.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trashcan2","path":"objects/obj_trashcan2/obj_trashcan2.yy",},"propertyId":{"name":"weight","path":"objects/obj_trashcan2/obj_trashcan2.yy",},"value":"2",},
           ],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1824.0,"y":736.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18C5ACCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_timer","path":"objects/obj_game_timer/obj_game_timer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRLayer","resourceVersion":"1.0","name":"Visuals_Below_Instances","depth":-11700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[
         {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Visual_Assets","assets":[],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},

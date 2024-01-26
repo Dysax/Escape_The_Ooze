@@ -1,2 +1,2 @@
-// Restart the level
-room_restart();
+// Go to endgame room
+room_goto_next();

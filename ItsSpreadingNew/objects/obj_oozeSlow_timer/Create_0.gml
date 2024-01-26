@@ -1,7 +1,7 @@
 /// @description Set-up
 
 t_min = 0
-t_sec = 1
+t_sec = 0
 t_mil = 0
 
 
