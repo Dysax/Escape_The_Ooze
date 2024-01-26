@@ -1,6 +1,6 @@
 // The movement speed of the
 // enemy along its path.
-move_speed = 1.75;
+move_speed = 1.1;
 
 // This will be true when the baddie
 // is attacking the player, otherwise

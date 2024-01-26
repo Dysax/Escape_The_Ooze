@@ -6,8 +6,8 @@ animation_timer--
 if(animation_timer <= 0) {
 	sprite_index = spr_slime_idle
 }
-var attackRange = 100;
-var pursueRange = 400;
+var attackRange = 5;
+var pursueRange = 220;
 var baddieElipsePursue = collision_ellipse(x - pursueRange, y - pursueRange, x + pursueRange, y + pursueRange, obj_player, true, 1);
 var baddieElipseAttack = collision_ellipse(x - attackRange, y - attackRange, x + attackRange, y + attackRange, obj_player, true, 1);
 changeDirTimer--
@@ -23,7 +23,7 @@ if((baddieElipsePursue))
 		
 	//enemy moves to player
 	direction=point_direction(x,y,obj_player.x,obj_player.y)
-	speed = 2
+	speed = 1.2
 	
 	if ((baddieElipseAttack)) {
 		
