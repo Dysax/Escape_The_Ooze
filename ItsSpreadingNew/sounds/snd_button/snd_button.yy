@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 2.164729,
+  "duration": 0.192313,
   "parent": {
     "name": "UI",
     "path": "folders/Sounds/UI.yy",
