@@ -4,7 +4,7 @@ if(!variable_instance_get(id, "goingToInventory")){
 	speed = 0
 	//Change to oozed version if ooze is not already slowed else destroy
 	if(!g.oozeIsSlowed){
-		instance_change(obj_plant2_ooze, true)
+		instance_change(obj_plant1_ooze, true)
 	} else {
 		instance_destroy()
 	}

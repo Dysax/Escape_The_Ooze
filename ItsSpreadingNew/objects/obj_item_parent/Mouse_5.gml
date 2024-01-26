@@ -1,4 +1,4 @@
-var pickupRange = 100;
+var pickupRange = 150;
 var itemPickupElipse = collision_ellipse(x - pickupRange, y - pickupRange, x + pickupRange, y + pickupRange, obj_player, true, 1);
 if ((itemPickupElipse)) {
 	g.slotPicked = false
