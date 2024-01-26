@@ -9,7 +9,10 @@
     "name": "attack_items",
     "path": "folders/Objects/Game/Items/attack_items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_attack_parent",
+    "path": "objects/obj_attack_parent/obj_attack_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_attack_fire",
+    "path": "sprites/spr_attack_fire/spr_attack_fire.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

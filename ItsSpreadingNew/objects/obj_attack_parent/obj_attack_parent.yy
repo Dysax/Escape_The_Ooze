@@ -1,18 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_electric_attack",
-  "eventList": [],
+  "name": "obj_attack_parent",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_editor_wall","path":"objects/obj_editor_wall/obj_editor_wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "attack_items",
     "path": "folders/Objects/Game/Items/attack_items.yy",
   },
-  "parentObjectId": {
-    "name": "obj_attack_parent",
-    "path": "objects/obj_attack_parent/obj_attack_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_attack_electric",
-    "path": "sprites/spr_attack_electric/spr_attack_electric.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
