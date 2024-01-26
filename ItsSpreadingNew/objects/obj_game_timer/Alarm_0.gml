@@ -15,7 +15,7 @@ if(t_sec = -1) {
 if !(t_sec = 0 && t_min = 0 && t_mil = 0) {
 	alarm[0] = 6
 } else {
-	room_goto(3)
+	room_goto(5)
 }
 
 //up ticking timer
