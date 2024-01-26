@@ -1,5 +1,5 @@
-// If there wasn't a collision
-// in the previous X position
+//// If there wasn't a collision
+//// in the previous X position
 var xCollide = instance_place(xprevious, y, [obj_collision_parent]);
 if (!(xCollide > 0))
 {

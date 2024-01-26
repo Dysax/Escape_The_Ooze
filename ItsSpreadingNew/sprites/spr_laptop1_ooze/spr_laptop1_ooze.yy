@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_laptop1_ooze",
-  "bbox_bottom": 52,
+  "bbox_bottom": 36,
   "bbox_left": 0,
-  "bbox_right": 41,
+  "bbox_right": 29,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -24,7 +24,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 45,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"83b96dfd-8949-49a6-9397-bc1bb75a1c52","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -84,5 +84,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 45,
 }

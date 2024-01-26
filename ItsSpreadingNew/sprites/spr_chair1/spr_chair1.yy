@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_chair1",
-  "bbox_bottom": 64,
-  "bbox_left": 5,
-  "bbox_right": 41,
+  "bbox_bottom": 81,
+  "bbox_left": 6,
+  "bbox_right": 52,
   "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 6,
   "gridY": 6,
-  "height": 69,
+  "height": 87,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"56654dd8-85d4-46de-8443-b9717a02955e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 46,
+  "width": 58,
 }

@@ -40,3 +40,6 @@ if ((itemPickupElipse)) {
 		speed = 50;
 	}
 }
+
+// fixme
+// var name = variable_instance_get
