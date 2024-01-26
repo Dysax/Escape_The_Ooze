@@ -3,16 +3,11 @@
 // Its size is 100 pixels around the baddie (using
 // the relative option)
 animation_timer--
-if!(isSpawned){
-	if(animation_timer <= 0){
-		isSpawned = true
-		sprite_index = spr_slime_idle
-	}
-}
 var attackRange = 100;
 var pursueRange = 300;
 var baddieElipsePursue = collision_ellipse(x - pursueRange, y - pursueRange, x + pursueRange, y + pursueRange, obj_player, true, 1);
 var baddieElipseAttack = collision_ellipse(x - attackRange, y - attackRange, x + attackRange, y + attackRange, obj_player, true, 1);
+
 if((baddieElipsePursue))
 {
 	// Get the distance to the player
@@ -101,7 +96,14 @@ if((baddieElipsePursue))
 	}
 } else {
 	speed = 0;
-	sprite_index =spr_slime_idle
+	if(animation_timer < 0 && !isAttacked){
+		sprite_index =spr_slime_idle
+		animation_timer = 0
+	}
+	//doesnt work
+	if place_meeting(x,y,obj_attack_parent){
+		isAttacked = true
+	}
 	
 }
 

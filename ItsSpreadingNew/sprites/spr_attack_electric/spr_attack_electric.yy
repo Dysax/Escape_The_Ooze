@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "ItsSpreadingNew",
-    "path": "ItsSpreadingNew.yyp",
+    "name": "attack_items",
+    "path": "folders/Sprites/Items/attack_items.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

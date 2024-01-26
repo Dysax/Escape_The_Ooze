@@ -1,6 +1,8 @@
 /// @description 
 animationTimer--;
 if(animationTimer <= 0){
+	
+	audio_play_sound(snd_fire_explosion, 0, 0, 1.0, 1.85, 1.0);
 	var _inst1 =instance_create_layer(x,y,"Instances",obj_explosion_attack)
 	var _inst2 =instance_create_layer(x,y,"Instances",obj_explosion_attack)
 	var _inst3 =instance_create_layer(x,y,"Instances",obj_explosion_attack)

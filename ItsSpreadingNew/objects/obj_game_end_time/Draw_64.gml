@@ -19,6 +19,5 @@ t += string(t_mil)
 if (t_min < 1) {
 	draw_set_color(c_red)
 }
-show_debug_message(t)
 draw_text(300,300,t)
 draw_set_color(c_white)
