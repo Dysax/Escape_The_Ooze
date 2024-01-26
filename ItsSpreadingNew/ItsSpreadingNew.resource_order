@@ -126,7 +126,6 @@
     {"name":"obj_table1_ooze","order":1,"path":"objects/obj_table1_ooze/obj_table1_ooze.yy",},
     {"name":"spr_table1_ooze","order":4,"path":"sprites/spr_table1_ooze/spr_table1_ooze.yy",},
     {"name":"obj_couch2","order":10,"path":"objects/obj_couch2/obj_couch2.yy",},
-    {"name":"spr_help_close","order":8,"path":"sprites/spr_help_close/spr_help_close.yy",},
     {"name":"obj_chair1_ooze","order":3,"path":"objects/obj_chair1_ooze/obj_chair1_ooze.yy",},
     {"name":"spr_chair1","order":5,"path":"sprites/spr_chair1/spr_chair1.yy",},
     {"name":"obj_table2","order":3,"path":"objects/obj_table2/obj_table2.yy",},
