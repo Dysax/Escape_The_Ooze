@@ -30,6 +30,7 @@ if(g.leftClick)
 			
 			//variable in the instance used to control if an item is being thrown
 			variable_instance_set(itemId, "isThrown", true);
+			variable_instance_set(itemId, "goingToInventory", false);
 			
 			//I hate this but I had to do it in order to prevent the item from 
 			//continuously sticking to the player
