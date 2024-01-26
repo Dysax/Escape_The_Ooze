@@ -8,7 +8,8 @@ move_speed = 1.75;
 attacking = false;
 freeDist = 0
 
-animation_timer = 30
+animation_timer = 45
 isSpawned = false
 
 isAttacked = false
+changeDirTimer = 120

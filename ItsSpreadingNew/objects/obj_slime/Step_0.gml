@@ -3,11 +3,14 @@
 // Its size is 100 pixels around the baddie (using
 // the relative option)
 animation_timer--
+if(animation_timer <= 0) {
+	sprite_index = spr_slime_idle
+}
 var attackRange = 100;
-var pursueRange = 300;
+var pursueRange = 400;
 var baddieElipsePursue = collision_ellipse(x - pursueRange, y - pursueRange, x + pursueRange, y + pursueRange, obj_player, true, 1);
 var baddieElipseAttack = collision_ellipse(x - attackRange, y - attackRange, x + attackRange, y + attackRange, obj_player, true, 1);
-
+changeDirTimer--
 if((baddieElipsePursue))
 {
 	// Get the distance to the player
@@ -95,17 +98,14 @@ if((baddieElipsePursue))
 		}
 	}
 } else {
-	speed = 0;
-	if(animation_timer < 0 && !isAttacked){
-		sprite_index =spr_slime_idle
-		animation_timer = 0
+	speed = 1;
+	if(changeDirTimer <= 0) {
+		changeDirTimer = 120
+		direction = choose(0,90,180,270)
+		show_debug_message("new dir: " + string(direction))
 	}
-	//doesnt work
-	if place_meeting(x,y,obj_attack_parent){
-		isAttacked = true
-	}
-	
 }
+	
 
 //fix baddies stuck in tables by moving them to an open space
 isCollidingTable = place_meeting(x,y, obj_table2) | place_meeting(x,y, obj_table1);
@@ -113,28 +113,43 @@ isCollidingBed = place_meeting(x,y, obj_bed)
 isColliding = isCollidingTable | isCollidingBed
 
 
-if(isColliding) {
-	teleDist = 70 + freeDist
-	if (place_free(x+teleDist, y+teleDist)) {
-		x+=teleDist
-		y+=teleDist
-		freeDist = 0
-	}
-	if (place_free(x+teleDist, y-teleDist)) {
-		x+=teleDist
-		y-=teleDist
-		freeDist = 0
-	}
-	if (place_free(x-teleDist, y+teleDist)) {
-		x-=teleDist
-		y+=teleDist
-		freeDist = 0
-	}
-	if (place_free(x-teleDist, y-teleDist)) {
-		x-=teleDist
-		y-=teleDist
-		freeDist = 0
-	} else {
-		freeDist += 10
+if (place_meeting(x, y, obj_collision_parent)) {
+	for (var i = 0; i < 1000; ++i) {
+		if (!place_meeting(x + i, y, obj_collision_parent)) {
+			x += i;
+			break;
+		}
+		if (!place_meeting(x - i, y, obj_collision_parent)) {
+			x -= i;
+			break;
+		}
+		if (!place_meeting(x, y + i, obj_collision_parent)) {
+			y += i;
+			break;
+		}
+		if (!place_meeting(x, y - i, obj_collision_parent)) {
+			y -= i;
+			break;
+		}
+		if (!place_meeting(x + i, y + i, obj_collision_parent)) {
+			x += i;
+			y+=i;
+			break;
+		}
+		if (!place_meeting(x - i, y-i, obj_collision_parent)) {
+			x -= i;
+			y-=i;
+			break;
+		}
+		if (!place_meeting(x-i, y + i, obj_collision_parent)) {
+			y += i;
+			x-=i;
+			break;
+		}
+		if (!place_meeting(x+i, y - i, obj_collision_parent)) {
+			y -= i;
+			x +=i;
+			break;
+		}
 	}
 }
