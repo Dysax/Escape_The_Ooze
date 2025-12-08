@@ -1,4 +1,4 @@
-<h1> Created for the Pirate Software Game Jam</h1> <br>
+<h1> Created for a Game Jam</h1> <br>
 https://dysax.itch.io/escape-the-ooze
 
 This is a game about survival. While working at your games studio, you have made a terrible mistake and spilled the pirate software jam jar. But the jar was filled with an insidious ooze who is committed to dissolving anything in it's path. You'll need to use whatever you find in the office to fight back in order to survive until the timer ends and help arrives.
